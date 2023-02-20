@@ -1,0 +1,189 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script&family=Shizuru&display=swap');
+
+:root {
+    --cor0: #ebc5c5;
+    --cor1: #CC2E1D;
+    --cor2: #992315;
+    --cor3: #4D2A26;
+    --cor4: #4D110B;
+    --cor5: #D60701;
+
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cor0);
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
+    min-height: 100px;
+    text-align: center;
+    padding-top: 40px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+header > h1 {
+    color: white;
+    font-size: 3em;
+    font-weight: normal;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+    font-family: 'Dancing Script', cursive;
+}
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    padding-bottom: 0px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+    border-radius: 10px;
+}
+
+main h1 {
+    color: var(--cor5);
+    padding: 20px;
+    font-weight: normal;
+    font-size: 1.8em;
+}
+
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 2em;
+}
+
+article > h1 {
+    background-color: var(--cor1);
+    color: white;
+    padding: 5px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+article > h2 {
+    color: white;
+    padding: 5px;
+    font-weight: normal;
+    background-color: var(--cor1);
+    border-radius: 10px 10px 0px 0px;
+    margin: 10px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+div.fotos {
+    background-color: var(--cor1);
+    width: 50%; 
+    min-width: 320px; 
+    margin:0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281);
+}
+
+aside.primeiro {
+    color: rgb(0, 0, 0);
+    text-indent: 0px;
+    text-align: justify;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px rgb(0, 0, 0)
+}
+
+aside > h3 {
+    background-color: var(--cor1);
+    color: white;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+aside.segundo {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px rgb(0, 0, 0)
+}
+
+aside > blockquote {
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}
+
+aside > p {
+    margin: 0px;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    text-indent: 10px;
+}
+
+ul {
+    columns: 3;
+    text-align: center;
+}
+
+li {
+    list-style-type: none
+}
+
+figure {
+    background-color: var(--cor1);
+    width: 50%; 
+    min-width: 320px; 
+    margin:0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281);
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+p.SemNada {
+    text-align: right;
+    padding: -50x;
+}
+
+footer {
+    background-color: var(--cor5);
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+footer > p > a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: var(--cor1);
+}
