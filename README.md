@@ -1,4 +1,4 @@
-# Letter-website 💌/💻
+# Letter💌/Website💻
 <p>It's a website-shaped letter I made to my girlfriend</p>
 <ul>
     <li>
